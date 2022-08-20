@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Undangan</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar_wrapper">
+            <h1>Romeo & Juliet</h1>
+        </div>
+    </nav>
+    <main>
+        <div class="hero">
+            <p>Pernikahan</p>
+            <span>Romeo & Juliet</span>
+            <p>Jakarta, 30 Februari 2022</p>
+            <button onclick="isiBukuTamu()">Isi Buku Tamu</button>
+        </div>
+        <section>
+            <h1>Daftar Tamu</h1>
+            <table class="daftar_tamu_table">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama</th>
+                        <th>Alamat</th>
+                        <th>Keterangan</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    <!-- element diambil dari script JS -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="./main.js"></script>
+</body>
+
+</html>

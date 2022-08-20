@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+}
+
+.navbar {
+    width: 100vw;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.18);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navbar_wrapper {
+    margin: 0 auto;
+    width: inherit;
+    max-width: 1080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.hero {
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://images.pexels.com/photos/9210855/pexels-photo-9210855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 12px;
+}
+
+.hero span {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.hero button {
+    margin: 20px 0;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background-color: white;
+    color: black;
+}
+
+section {
+    width: inherit;
+    max-width: 1080;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.daftar_tamu_table {
+    width: inherit;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+thead {
+    text-align: left;
+    height: 10px;
+}
