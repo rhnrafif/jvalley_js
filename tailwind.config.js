@@ -9,6 +9,9 @@ module.exports = {
       fontFamily:{
         root: 'Fredoka',
       },
+      backgroundColor:{
+        root: '#f5f5f5',
+      }
     },
   },
   plugins: [],
