@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./public/**/*.{html,js, css, png}"],
+  content: ["./public/**/*.{html,js, css}"],
   theme: {
     extend: {
        fontSize:{
@@ -11,6 +11,9 @@ module.exports = {
       },
       backgroundColor:{
         root: '#f5f5f5',
+      },
+      colors:{
+        primary: '#192632',
       }
     },
   },
