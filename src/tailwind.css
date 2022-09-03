@@ -9,4 +9,7 @@
     .nav-item{
         @apply h-[30%] w-full text-primary flex justify-center items-center;
     }
+    .grid-konten{
+        @apply h-80 overflow-hidden rounded-[10px] bg-cover bg-center;
+    }
 }
